@@ -1,0 +1,23 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments and generated files
+**/venv/
+**/__pycache__/
+**/*.pyc
+
+# Local database and recordings
+backend/voicepilot.db
+backend/recordings/
+backend/live_test_audio.pcm
+backend/live_test_audio.wav
+
+# Frontend generated files and dependencies
+frontend/node_modules/
+frontend/.next/
+
+# Local frontend environment files
+frontend/.env*
+!frontend/.env.example
