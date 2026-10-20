@@ -49,24 +49,22 @@ The application combines real-time voice interaction, automated conversation ana
 
 ## 📁 Project Structure
 
-```text
-VoicePilot-AI/
-├── backend/
-│   ├── main.py
-│   ├── voice_session.py
-│   ├── gemini_live.py
-│   ├── call_analysis.py
-│   ├── requirements.txt
-│   └── ...
-├── frontend/
-│   ├── app/
-│   ├── components/
-│   ├── hooks/
-│   ├── lib/
-│   └── ...
-├── .gitignore
-└── README.md
-```
+    VoicePilot-AI/
+    ├── backend/
+    │   ├── main.py
+    │   ├── voice_session.py
+    │   ├── gemini_live.py
+    │   ├── call_analysis.py
+    │   ├── requirements.txt
+    │   └── ...
+    ├── frontend/
+    │   ├── app/
+    │   ├── components/
+    │   ├── hooks/
+    │   ├── lib/
+    │   └── ...
+    ├── .gitignore
+    └── README.md
 
 **Note:** Environment files, virtual environments, local databases, recordings, and generated files are excluded from Git version control.
 
@@ -93,8 +91,6 @@ git clone https://github.com/DikshaaSaraswat/VoicePilot-AI.git
 cd VoicePilot-AI
 ```
 
-Replace `<YOUR_GITHUB_REPOSITORY_URL>` with your actual GitHub repository URL.
-
 ### 2. Set Up the Backend
 
 Navigate to the backend directory:
@@ -105,7 +101,7 @@ cd backend
 
 Create and activate a Python virtual environment on Windows.
 
-For PowerShell:
+**For PowerShell:**
 
 ```powershell
 python -m venv venv
@@ -130,7 +126,7 @@ Create a `.env` file inside the `backend/` directory and add your Gemini API key
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
-**Security:** Never publish your actual API key or commit your `.env` file to GitHub.
+Replace the placeholder with your own API key. Never publish your actual API key or commit your `.env` file to GitHub.
 
 Start the backend server:
 
@@ -140,9 +136,9 @@ python -m uvicorn main:app --reload
 
 The backend will be available at:
 
-- **API:** http://127.0.0.1:8000
-- **Health Check:** http://127.0.0.1:8000/health
-- **Interactive API Documentation:** http://127.0.0.1:8000/docs
+- **API:** [http://127.0.0.1:8000](http://127.0.0.1:8000)
+- **Health Check:** [http://127.0.0.1:8000/health](http://127.0.0.1:8000/health)
+- **Interactive API Documentation:** [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
 ### 3. Set Up the Frontend
 
@@ -166,7 +162,7 @@ npm run dev
 
 Open the application in your browser:
 
-**http://localhost:3000**
+[http://localhost:3000](http://localhost:3000)
 
 If the frontend requires a backend API URL, configure the environment variable expected by the existing frontend code.
 
