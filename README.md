@@ -89,7 +89,7 @@ Before running the application, ensure you have:
 ### 1. Clone the Repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/DikshaaSaraswat/VoicePilot-AI.git
 cd VoicePilot-AI
 ```
 
